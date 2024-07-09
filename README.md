@@ -7,18 +7,18 @@ This report presents a comprehensive analysis of public datasets using Google Cl
 BigQuery offers robust data analysis capabilities, handling large datasets with ease. Its serverless architecture eliminates the need for infrastructure management, allowing seamless scaling. The pay-as-you-go pricing model ensures cost-effectiveness and optimized resource utilization. In a data-intensive world where exponential data generation occurs through social media, IoT, and transactions, BigQuery provides efficient query processing and quick insights from large datasets, facilitating data-driven decision-making and offering a competitive edge in fast-paced markets.
 
 # Project Scope 
-## In-Scope
+- <b>In-Scope</b>
 •	Comprehensive data analysis using BigQuery public datasets.
 •	Advanced SQL data manipulations and trend analysis.
 •	Integration with Google Data Studio for visualizations.
-## Out-of-Scope
+- <b> Out-of-Scope </b>
 •	Integration with non-Google Cloud services.
 •	Real-time data processing or streaming analytics.
 
 # Project Plan 
-## Problem Statement
+- <b>Problem Statement</b>
 The goal is to examine public datasets and generate actionable insights using BigQuery, organized into several sections: initial exploration, detailed exploration, tracking trends, and assessing impacts in various sectors.
-Setup and Preliminary Learning
+- <b>Setup and Preliminary Learning</b>
 •	Access and set up Google Cloud Platform and BigQuery accounts.
 •	Explore BigQuery documentation and Google Cloud training modules.
 •	Engage with online courses on BigQuery SQL and Google Cloud services.
