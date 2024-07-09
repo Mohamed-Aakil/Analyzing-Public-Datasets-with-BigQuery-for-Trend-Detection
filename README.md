@@ -11,6 +11,7 @@ BigQuery offers robust data analysis capabilities, handling large datasets with 
 - Comprehensive data analysis using BigQuery public datasets.
 -	Advanced SQL data manipulations and trend analysis.
 - Integration with Google Data Studio for visualizations.
+  
 <b> Out-of-Scope </b>
 - Integration with non-Google Cloud services.
 - Real-time data processing or streaming analytics.
