@@ -1,12 +1,12 @@
-## Analyzing-Public-Datasets-with-BigQuery-for-Trend-Detection ##
+# Analyzing-Public-Datasets-with-BigQuery-for-Trend-Detection 
 
-# Introduction
+## Introduction ##
 This report presents a comprehensive analysis of public datasets using Google Cloud's BigQuery to detect emerging trends. The project was carried out as part of the INFO 607 course during Spring 2024. The team members involved in this project were Abhishek Baj, Hassaan Alvi, Mohamed Shehaf Aakil, and Priyanka Choudhary. The primary goal was to leverage BigQuery to process large datasets efficiently and provide actionable insights through advanced data analytics and visualizations across various sectors such as healthcare, finance, and social media.
 
-# BigQuery as a Premier Data Warehouse Solution
+# BigQuery as a Premier Data Warehouse Solution ##
 BigQuery offers robust data analysis capabilities, handling large datasets with ease. Its serverless architecture eliminates the need for infrastructure management, allowing seamless scaling. The pay-as-you-go pricing model ensures cost-effectiveness and optimized resource utilization. In a data-intensive world where exponential data generation occurs through social media, IoT, and transactions, BigQuery provides efficient query processing and quick insights from large datasets, facilitating data-driven decision-making and offering a competitive edge in fast-paced markets.
 
-# Project Scope
+## Project Scope ##
 In-Scope
 •	Comprehensive data analysis using BigQuery public datasets.
 •	Advanced SQL data manipulations and trend analysis.
@@ -15,7 +15,7 @@ Out-of-Scope
 •	Integration with non-Google Cloud services.
 •	Real-time data processing or streaming analytics.
 
-Project Plan
+## Project Plan ##
 Problem Statement
 The goal is to examine public datasets and generate actionable insights using BigQuery, organized into several sections: initial exploration, detailed exploration, tracking trends, and assessing impacts in various sectors.
 Setup and Preliminary Learning
@@ -28,7 +28,8 @@ Introduction to Generative AI
 •	Select relevant datasets in BigQuery.
 •	Design initial queries to establish data baselines.
 •	Plan specific Generative AI tasks for the project.
-Software and Hardware
+
+## Software and Hardware ##
 Google BigQuery and Google Cloud Platform
 •	Scalable and serverless: Efficient data handling without infrastructure concerns.
 •	Managed cloud service: No physical hardware needed.
@@ -50,7 +51,7 @@ Example: publicdata:samples.wikipedia
  
 
 
-Loading Data Using Web Browser
+## Loading Data Using Web Browser ##
 •	Upload from local disk or from Cloud Storage
 •	Start the Web browser
 •	Select Dataset
@@ -60,7 +61,6 @@ Loading Data Using bq Tool
 “Bq load” command
 Syntax
  
-
 •	If not specified, the default file format is CSV (comma separated values)
 •	The files can also use newline delimited JSON format
 •	Schema
