@@ -16,3 +16,100 @@ AND
 ORDER BY
     itr.percent_gain DESC
 LIMIT 100;
+
+
+-- Average Percentage gain
+
+SELECT
+    region_name,
+    term,
+    AVG(percent_gain) AS avg_percent_gain
+FROM
+    `bigquery-public-data.google_trends.international_top_rising_terms`
+GROUP BY
+    region_name, term
+ORDER BY
+    avg_percent_gain DESC
+LIMIT 1000;
+
+
+-- Ranking the Performance of the Rising Terms
+
+SELECT
+    itr.region_name,
+    itr.term,
+    AVG(itr.percent_gain) AS avg_percent_gain,
+    AVG(itt.score) AS avg_score
+FROM
+    `bigquery-public-data.google_trends.international_top_rising_terms` itr
+JOIN
+    `bigquery-public-data.google_trends.international_top_terms` itt
+ON
+    itr.term = itt.term
+AND
+    itr.region_name = itt.region_name
+GROUP BY
+    itr.region_name, itr.term
+ORDER BY
+    avg_percent_gain DESC, avg_score DESC
+LIMIT 100;
+
+
+-- Maximum Scores Across Various Regions
+
+SELECT
+    itt.region_name,
+    itt.term,
+    MAX(itt.score) AS max_score
+FROM
+    `bigquery-public-data.google_trends.international_top_terms` itt
+GROUP BY
+    itt.region_name, itt.term
+ORDER BY
+    max_score DESC
+LIMIT 100;
+
+
+-- Frequently Occuring terms in International Terms
+
+SELECT
+    term,
+    COUNT(*) AS frequency
+FROM
+     `bigquery-public-data.google_trends.international_top_terms`
+GROUP BY
+    term
+ORDER BY
+    frequency DESC
+LIMIT 100;
+
+
+-- Average Scores Across Different Designated Market Areas
+
+SELECT
+    dma_name,
+    term,
+    AVG(score) AS avg_score
+FROM
+    `bigquery-public-data.google_trends.top_terms`
+
+GROUP BY
+    dma_name, term
+ORDER BY
+    avg_score DESC
+LIMIT 100;
+
+
+-- Average Percentage Gain Across Different Countries
+
+SELECT
+    country_name,
+    term,
+    AVG(percent_gain) AS avg_percent_gain
+FROM
+    `bigquery-public-data.google_trends.international_top_rising_terms`
+GROUP BY
+    country_name, term
+ORDER BY
+    avg_percent_gain DESC
+LIMIT 100;
