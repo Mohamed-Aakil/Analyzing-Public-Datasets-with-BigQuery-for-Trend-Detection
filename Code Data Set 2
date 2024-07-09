@@ -1,1 +1,70 @@
+-- Count of Reviews with a Comment Title in the Brazil E-Commerce Order Reviews Table
 
+SELECT count(*) as count_reviews_with_comment 
+FROM `info-607-426304.Brazil_E_Commerce.order_reviews` 
+where review_comment_title is not null
+
+
+-- Distribution of Review Scores in the Brazil E-Commerce Order Reviews Table
+
+SELECT review_score, COUNT(*) as count 
+FROM `info-607-426304.Brazil_E_Commerce.order_reviews` 
+GROUP BY review_score
+
+
+-- Number of Unique Customers by City in the Brazil E-Commerce Customers Table
+
+SELECT customer_city,
+count(distinct customer_unique_id) as no_of_customer
+FROM `info-607-426304.Brazil_E_Commerce.customers`
+group by customer_city
+order by count(customer_unique_id) desc 
+
+
+-- Weekly Order Counts for the First 10 Weeks in the Brazil E-Commerce Orders Table
+
+SELECT * FROM (
+  SELECT 
+  EXTRACT(YEAR FROM DATETIME (order_purchase_timestamp)) AS year,
+  EXTRACT(WEEK FROM DATETIME (order_purchase_timestamp)) AS week,
+  COUNT(DISTINCT order_id) AS order_in_week
+  FROM
+   `info-607-426304.Brazil_E_Commerce.orders` 
+
+  GROUP BY
+  EXTRACT(week FROM DATETIME (order_purchase_timestamp)),
+  extract(year FROM DATETIME(order_purchase_timestamp))) x
+  ORDER BY
+  x.year, x.week
+  limit 10 
+
+
+-- Monthly Order Counts for the First 10 Months in the Brazil E-Commerce Orders Table
+
+SELECT * FROM (
+  SELECT 
+  EXTRACT(YEAR FROM DATETIME (order_purchase_timestamp)) AS year,
+  EXTRACT(MONTH FROM DATETIME (order_purchase_timestamp)) AS month,
+  COUNT(DISTINCT order_id) AS order_in_month
+  FROM
+   `info-607-426304.Brazil_E_Commerce.orders` 
+
+  GROUP BY
+  EXTRACT(YEAR FROM DATETIME (order_purchase_timestamp)),
+  extract(month FROM DATETIME(order_purchase_timestamp))) x
+  ORDER BY
+  x.year, x.month
+  limit 10 
+
+
+-- Count of Reviews with a Non-Null Comment Title in the Brazil E-Commerce Order Reviews Table
+
+select count(*) as count_reviews_with_comment
+from `info-607-426304.Brazil_E_Commerce.order_reviews`
+where review_comment_title is not null
+
+
+--Review Score Distribution with Counts in the Brazil E-Commerce Order Reviews Table
+
+SELECT review_score, COUNT(*) FROM `info-607-426304.Brazil_E_Commerce.order_reviews` GROUP BY review_score
+LIMIT 1000
