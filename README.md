@@ -107,9 +107,10 @@ The International Google Trends dataset provides critical insights for individua
 •	Identifying emerging trends by comparing current and previous months.
 •	Detailed analysis of performance metrics of top terms across different regions and countries.
 
-Dataset 2: E-commerce Retail Data - Brazil
+# Dataset 2: E-commerce Retail Data - Brazil
 This dataset analyzes the operations of a major e-commerce retailer, Target, in Brazil. It includes eight CSV files offering a detailed perspective on 100,000 orders placed from 2016 to 2018. The objective is to uncover valuable insights and provide actionable recommendations for the company.
-Key Analytical Inquiries
+
+## Key Analytical Inquiries ##
 •	Identifying data types of all columns in the "customers" table.
 •	Determining the time range during which orders were placed.
 •	Counting the number of cities and states where customers placed orders.
@@ -118,45 +119,30 @@ Key Analytical Inquiries
 •	Determining the time of day when Brazilian customers predominantly place their orders.
 •	Tracking monthly order volume by state and analyzing customer distribution.
 •	Calculating the percentage increase in order costs from 2017 to 2018.
-Analysis and Visualization
+
+## Analysis and Visualization ##
 Regional Variation in Search Term Popularity
 The results show significant variation in the average percent gain of search terms across different regions, indicating localized spikes in interest tied to specific events or cultural factors.
 The results show a significant variation in the average percent gain of search terms across different regions. For instance, "עומר אדם" (Omer Adam) has a consistently high average percent gain of 34,900 across multiple districts in Israel, indicating a widespread and substantial increase in interest.
 Diverse Interest Levels Across Regions: The chart and data reveal that while certain regions like Tottori Prefecture in Japan show high average scores (46.41) for the term "台湾 地震" (Taiwan earthquake), other regions display varying levels of interest and engagement. This suggests localized spikes in interest that could be tied to specific events or cultural factors.
  
 
-
-
-Consistency in Search Trends
+## Consistency in Search Trends ##
 Certain terms consistently exhibit high percent gains, showing significant and sustained interest within specific regions.
 The query results indicate that the term "עומר אדם" (Omer Adam) in Israel consistently exhibits a high percent gain of 34900, showing significant and sustained interest in this term within the region.
 Data Distribution and Analysis: The histogram highlights that the majority of data points for percent gain are clustered at a high value of 34900, suggesting a concentrated surge in interest for the term, which could be due to a specific event or ongoing popularity within the specified timeframe.
  
-
-
-
-
-High Frequency of Sports-Related Terms
+## High Frequency of Sports-Related Terms ##
 Sports-related terms dominate search frequency, indicating strong global interest in sports events and teams.
 The data reveals that sports-related terms like "Arsenal," "PSG," "Chelsea," "Real Madrid," and "F1" dominate the top positions in terms of search frequency. This indicates a strong global interest in sports events and teams.
 Distribution of Popular Terms: The bar chart illustrates the frequency distribution of various search terms, with a steep drop-off after the top few terms. This suggests that while a few terms have very high search volumes, there is a long tail of less frequently searched terms, indicating diverse interests among users.
 
- 
-
-
-
-
-Uniform High Scores Across Different DMAs
+## Uniform High Scores Across Different DMAs ##
 Certain topics garner significant interest and engagement uniformly across multiple regions, highlighting diverse interests across different DMAs.
 The query results indicate that several terms achieve the maximum score of 100 across different Designated Market Areas (DMAs). This suggests that certain topics, such as "Houston weather," "Marjorie Taylor Greene," and "Kensington Metropark alligator," have garnered significant interest and engagement uniformly across multiple regions.
 Diverse Interest in Various Topics: The pie chart illustrates a wide array of topics with high average scores, indicating a broad and diverse set of interests across different DMAs. The even distribution of scores across many terms highlights the variety in search behaviors and interests among users in different market areas.
 
- 
-
-
-
-
-High Average Percent Gain in Portugal and Chile
+## High Average Percent Gain in Portugal and Chile 
 
 The query results highlight that the term "eleições nacionais de Portugal" in Portugal and "toriyama" in Chile have the highest average percent gains, with 148,350 and 93,900 respectively. This indicates significant spikes in interest for these terms in their respective countries.
 The scatter plot shows that while a few terms have extremely high average percent gains, the majority of terms have more moderate gains. This suggests that a limited number of topics have captured intense interest, whereas most other topics have seen more modest increases in attention.
