@@ -60,7 +60,7 @@ Example: publicdata:samples.wikipedia
 ## Loading Data Using bq Tool
 “Bq load” command
 Syntax
- 
+
 •	If not specified, the default file format is CSV (comma separated values)
 •	The files can also use newline delimited JSON format
 •	Schema
@@ -70,8 +70,7 @@ o	Either a filename or a comma-separated list of column_name:datatype pairs that
 ## Loading Limitations
 •	1000 imports jobs per table per day
 •	10,000 import jobs per project per day
-•	File size (for both CSV and JSON)
-o	1GB for compressed file
+•	File size (for both CSV and JSON)1GB for compressed file
 o	1TB for uncompressed file
 	4GB for uncompressed CSV with newlines in strings
 •	10,000 files per import job
@@ -146,49 +145,27 @@ Diverse Interest in Various Topics: The pie chart illustrates a wide array of to
 The query results highlight that the term "eleições nacionais de Portugal" in Portugal and "toriyama" in Chile have the highest average percent gains, with 148,350 and 93,900 respectively. This indicates significant spikes in interest for these terms in their respective countries.
 The scatter plot shows that while a few terms have extremely high average percent gains, the majority of terms have more moderate gains. This suggests that a limited number of topics have captured intense interest, whereas most other topics have seen more modest increases in attention.
  
-
-
-
-
-
-
-
-
-E-commerce Trends in Brazil
+# E-commerce Trends in Brazil
 •	The highest number of orders is placed during the afternoon period (1 PM to 8 PM), while the fewest orders occur in the early morning hours (12 AM to 6 AM).
- 
 •	Majority of customers are concentrated in densely populated cities such as Sao Paulo and Rio de Janeiro.
- 
 •	Significant seasonal peaks in order volumes can be attributed to festival seasons.
  
 
-Actionable Insights
-Increase Customer Base in Untapped Cities
+# Actionable Insights
+## Increase Customer Base in Untapped Cities
 •	Provide discounts and offers during festival seasons to attract customers from less penetrated cities.
-Expand Delivery Network
+## Expand Delivery Network
 •	Partner with local businesses in cities lacking sellers.
 •	Develop sellers in cities with a significant customer base to ensure faster delivery and improve customer satisfaction.
-Encourage Written Reviews
+## Encourage Written Reviews
 •	Offer incentives to customers to encourage them to leave detailed written reviews, enhancing customer experience and boosting sales.
-Capitalize on Seasonal Demand
+## Capitalize on Seasonal Demand
 •	Offer a wider range and larger quantity of products.
 •	Provide attractive promotions and discounts to maximize sales during seasonal peaks.
 
-
-
-
-
-
-
-
-
-
-
-References
+# References
 •	"Google Cloud Platform," Google Trends Data on BigQuery, Google Inc., 2023. [Online]. Available: Google Trends
 •	"Google Cloud Platform," BigQuery SQL Reference Guide, Google Inc., 2023. [Online]. Available: BigQuery SQL Reference
 •	"Google Cloud Platform," BigQuery Performance and Cost Optimization, Google Inc., 2023. [Online]. Available: BigQuery Performance
 •	J. Doe, "Analyzing Spatial and Temporal Data Using BigQuery," Towards Data Science, 2023. [Online]. Available: Towards Data Science
 •	"Google Cloud Platform," Integrating BigQuery with Data Visualization Tools, Google Inc., 2023. [Online]. Available: BigQuery Data Studio
-
-![image](https://github.com/Mohamed-Aakil/Analyzing-Public-Datasets-with-BigQuery-for-Trend-Detection/assets/96182727/b9041545-3835-4fc2-8cfb-74af631ac349)
