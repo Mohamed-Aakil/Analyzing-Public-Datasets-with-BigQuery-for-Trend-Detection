@@ -38,26 +38,26 @@ Additional Tools
 •	Google Data Studio: For data visualization.
 •	Vertex AI: For machine learning tasks.
 •	Google Cloud Storage: For data storage and management.
-Experimentation Plan
+
+## Experimentation Plan ##
 Data Preparation and Integration
 •	Data access: Utilize public datasets in Google BigQuery.
 •	Data cleansing: Remove duplicates, correct errors, fill missing values.
 •	Data schema setup: Define schema to support analysis needs.
-Datasets & Tables
+
+## Datasets & Tables##
 Table names are represented as follows:
 •	Current project <dataset> . <table>
 •	Different Project <project> : <dataset> . <table> 
 Example: publicdata:samples.wikipedia
  
-
-
 ## Loading Data Using Web Browser ##
 •	Upload from local disk or from Cloud Storage
 •	Start the Web browser
 •	Select Dataset
 •	Create table and follow the wizard steps 
  
-Loading Data Using bq Tool
+## Loading Data Using bq Tool ##
 “Bq load” command
 Syntax
  
@@ -66,7 +66,8 @@ Syntax
 •	Schema
 o	Either a filename or a comma-separated list of column_name:datatype pairs that described the file format
 •	Data source may be on local machine or on Cloud Storage
-Loading Limitations
+
+## Loading Limitations ##
 •	1000 imports jobs per table per day
 •	10,000 import jobs per project per day
 •	File size (for both CSV and JSON)
@@ -75,28 +76,26 @@ o	1TB for uncompressed file
 	4GB for uncompressed CSV with newlines in strings
 •	10,000 files per import job
 •	1TB per import job
-Query Development and Execution
+
+## Query Development and Execution ## 
 •	Query formulation: Develop SQL queries for trend exploration.
 •	Performance optimization: Optimize queries for efficient processing.
 •	Iterative testing: Test and refine queries for accuracy.
-Analysis and Visualization
+
+## Analysis and Visualization ##
 •	Data analysis: Identify patterns, trends, and anomalies.
 •	Data visualization: Create visual representations with Google Data Studio.
 •	Advanced tools integration: Use AI Platform for predictive modeling.
-Security and Compliance
+
+## Security and Compliance ##
 •	Data usage guidelines: Adhere to ethical considerations.
 •	Compliance checks: Ensure data governance standards are met.
 
-
-
-
-
-
-
-Datasets & Analysis
-Dataset 1: Google Trends - International
+## Datasets & Analysis ##
+# Dataset 1: Google Trends - International
 The International Google Trends dataset provides critical insights for individual users and businesses by automating and exposing anonymized, aggregated, and indexed search data in BigQuery. This dataset includes two separate BigQuery tables: one for the Top 25 stories and another for the Top 25 rising queries. New top terms are appended daily, with each set expiring after 30 days. Additionally, a rolling five-year window of historical data is available for each country and region globally, providing valuable signals for analyzing trends and making informed decisions.
-Key Analytical Inquiries
+
+## Key Analytical Inquiries ##
 •	Identifying top rising search terms in different countries and regions.
 •	Highlighting the most frequent search terms across all regions.
 •	Analyzing search term trends by DMA (Designated Market Area) region.
