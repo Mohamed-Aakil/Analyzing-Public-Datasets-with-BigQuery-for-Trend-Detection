@@ -22,7 +22,7 @@ The goal is to examine public datasets and generate actionable insights using Bi
 •	Access and set up Google Cloud Platform and BigQuery accounts.
 •	Explore BigQuery documentation and Google Cloud training modules.
 •	Engage with online courses on BigQuery SQL and Google Cloud services.
-Introduction to Generative AI
+- <b>Introduction to Generative AI</b>
 •	Research Generative AI technologies for data analysis.
 •	Explore Google Cloud APIs and tools for Generative AI, such as Vertex AI.
 •	Select relevant datasets in BigQuery.
@@ -30,23 +30,23 @@ Introduction to Generative AI
 •	Plan specific Generative AI tasks for the project.
 
 # Software and Hardware
-## Google BigQuery and Google Cloud Platform
+- <b>Google BigQuery and Google Cloud Platform</b>
 •	Scalable and serverless: Efficient data handling without infrastructure concerns.
 •	Managed cloud service: No physical hardware needed.
 •	Focus on data analysis: Reduced overhead, streamlined data operations.
-## Additional Tools
+- <b>Additional Tools</b>
 •	Google Data Studio: For data visualization.
 •	Vertex AI: For machine learning tasks.
 •	Google Cloud Storage: For data storage and management.
 
 ## Experimentation Plan
-Data Preparation and Integration
+- <b>Data Preparation and Integration</b>
 •	Data access: Utilize public datasets in Google BigQuery.
 •	Data cleansing: Remove duplicates, correct errors, fill missing values.
 •	Data schema setup: Define schema to support analysis needs.
 
 ## Datasets & Tables
-Table names are represented as follows:
+- <b>Table names are represented as follows:</b>
 •	Current project <dataset> . <table>
 •	Different Project <project> : <dataset> . <table> 
 Example: publicdata:samples.wikipedia
@@ -93,14 +93,14 @@ o	1TB for uncompressed file
 •	Advanced tools integration: Use AI Platform for predictive modeling.
 
 ## Security and Compliance
-•	Data usage guidelines: Adhere to ethical considerations.
-•	Compliance checks: Ensure data governance standards are met.
+•- <b>	Data usage guidelines:</b> Adhere to ethical considerations.
+•	- <b>Compliance checks:</b> Ensure data governance standards are met.
 
 # Datasets & Analysis
-# Dataset 1: Google Trends - International
+- <b>Dataset 1: Google Trends - International</b>
 The International Google Trends dataset provides critical insights for individual users and businesses by automating and exposing anonymized, aggregated, and indexed search data in BigQuery. This dataset includes two separate BigQuery tables: one for the Top 25 stories and another for the Top 25 rising queries. New top terms are appended daily, with each set expiring after 30 days. Additionally, a rolling five-year window of historical data is available for each country and region globally, providing valuable signals for analyzing trends and making informed decisions.
 
-## Key Analytical Inquiries
+- <b>Key Analytical Inquiries</b>
 •	Identifying top rising search terms in different countries and regions.
 •	Highlighting the most frequent search terms across all regions.
 •	Analyzing search term trends by DMA (Designated Market Area) region.
@@ -112,10 +112,10 @@ The International Google Trends dataset provides critical insights for individua
 •	Identifying emerging trends by comparing current and previous months.
 •	Detailed analysis of performance metrics of top terms across different regions and countries.
 
-# Dataset 2: E-commerce Retail Data - Brazil
+- <b>Dataset 2: E-commerce Retail Data - Brazil</b>
 This dataset analyzes the operations of a major e-commerce retailer, Target, in Brazil. It includes eight CSV files offering a detailed perspective on 100,000 orders placed from 2016 to 2018. The objective is to uncover valuable insights and provide actionable recommendations for the company.
 
-## Key Analytical Inquiries
+- <b>Key Analytical Inquiries</b>
 •	Identifying data types of all columns in the "customers" table.
 •	Determining the time range during which orders were placed.
 •	Counting the number of cities and states where customers placed orders.
@@ -174,14 +174,14 @@ The scatter plot shows that while a few terms have extremely high average percen
  ![image](https://github.com/Mohamed-Aakil/Analyzing-Public-Datasets-with-BigQuery-for-Trend-Detection/assets/96182727/e370c741-74c9-4e0d-ac85-79388f5b17ac)
 
 # Actionable Insights
-## Increase Customer Base in Untapped Cities
+- <b>Increase Customer Base in Untapped Cities</b>
 •	Provide discounts and offers during festival seasons to attract customers from less penetrated cities.
-## Expand Delivery Network
+- <b>Expand Delivery Network</b>
 •	Partner with local businesses in cities lacking sellers.
 •	Develop sellers in cities with a significant customer base to ensure faster delivery and improve customer satisfaction.
-## Encourage Written Reviews
+- <b>Encourage Written Reviews</b>
 •	Offer incentives to customers to encourage them to leave detailed written reviews, enhancing customer experience and boosting sales.
-## Capitalize on Seasonal Demand
+- <b>Capitalize on Seasonal Demand</b>
 •	Offer a wider range and larger quantity of products.
 •	Provide attractive promotions and discounts to maximize sales during seasonal peaks.
 
