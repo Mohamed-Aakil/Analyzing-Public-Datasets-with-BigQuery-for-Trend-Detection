@@ -54,8 +54,8 @@ BigQuery offers robust data analysis capabilities, handling large datasets with 
 ## Datasets & Tables
 <b>Table names are represented as follows:</b>
 - Current project < dataset > . < table >
-- Different Project < project > : < dataset > . < table > 
-Example: publicdata:samples.wikipedia
+- Different Project < project > : < dataset > . < table >
+- Example: publicdata:samples.wikipedia
 
  ![image](https://github.com/Mohamed-Aakil/Analyzing-Public-Datasets-with-BigQuery-for-Trend-Detection/assets/96182727/751c87be-dbc6-4afd-bb28-09905062e7b7)
  
