@@ -64,7 +64,7 @@ from `info-607-426304.Brazil_E_Commerce.order_reviews`
 where review_comment_title is not null
 
 
---Review Score Distribution with Counts in the Brazil E-Commerce Order Reviews Table
+-- Review Score Distribution with Counts in the Brazil E-Commerce Order Reviews Table
 
 SELECT review_score, COUNT(*) FROM `info-607-426304.Brazil_E_Commerce.order_reviews` GROUP BY review_score
 LIMIT 1000
