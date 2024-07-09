@@ -8,26 +8,26 @@ BigQuery offers robust data analysis capabilities, handling large datasets with 
 
 # Project Scope 
 - <b>In-Scope</b>
-•	Comprehensive data analysis using BigQuery public datasets.
-•	Advanced SQL data manipulations and trend analysis.
-•	Integration with Google Data Studio for visualizations.
+- Comprehensive data analysis using BigQuery public datasets.
+-	Advanced SQL data manipulations and trend analysis.
+- Integration with Google Data Studio for visualizations.
 - <b> Out-of-Scope </b>
-•	Integration with non-Google Cloud services.
-•	Real-time data processing or streaming analytics.
+- Integration with non-Google Cloud services.
+- Real-time data processing or streaming analytics.
 
 # Project Plan 
 - <b>Problem Statement</b>
-The goal is to examine public datasets and generate actionable insights using BigQuery, organized into several sections: initial exploration, detailed exploration, tracking trends, and assessing impacts in various sectors.
+- The goal is to examine public datasets and generate actionable insights using BigQuery, organized into several sections: initial exploration, detailed exploration, tracking trends, and assessing impacts in various sectors.
 - <b>Setup and Preliminary Learning</b>
-•	Access and set up Google Cloud Platform and BigQuery accounts.
-•	Explore BigQuery documentation and Google Cloud training modules.
-•	Engage with online courses on BigQuery SQL and Google Cloud services.
+- Access and set up Google Cloud Platform and BigQuery accounts.
+- Explore BigQuery documentation and Google Cloud training modules.
+- Engage with online courses on BigQuery SQL and Google Cloud services.
 - <b>Introduction to Generative AI</b>
-•	Research Generative AI technologies for data analysis.
-•	Explore Google Cloud APIs and tools for Generative AI, such as Vertex AI.
-•	Select relevant datasets in BigQuery.
-•	Design initial queries to establish data baselines.
-•	Plan specific Generative AI tasks for the project.
+- Research Generative AI technologies for data analysis.
+- Explore Google Cloud APIs and tools for Generative AI, such as Vertex AI.
+- Select relevant datasets in BigQuery.
+- Design initial queries to establish data baselines.
+- Plan specific Generative AI tasks for the project.
 
 # Software and Hardware
 - <b>Google BigQuery and Google Cloud Platform</b>
