@@ -93,7 +93,7 @@ o	1TB for uncompressed file
 •	Advanced tools integration: Use AI Platform for predictive modeling.
 
 ## Security and Compliance
-•- <b>	Data usage guidelines:</b> Adhere to ethical considerations.
+•- <b>Data usage guidelines:</b> Adhere to ethical considerations.
 •	- <b>Compliance checks:</b> Ensure data governance standards are met.
 
 # Datasets & Analysis
